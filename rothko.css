@@ -1,0 +1,27 @@
+/* Since I will have multiple, I added an ID to target my first work. */
+#rothko section {
+	background-color: #DD9338; /* I used the “Digital Color Meter” on my Mac to get these exact values. */
+	height: 304px; /* Let’s make this smaller to reflect its actual size. */
+	width: 227px; /* Square. */
+	padding: 12px; /* Even inset all-around. */
+}
+
+#rothko section,
+#rothko div {
+	border-radius: 1px; /* Make the corners less sharp. */
+}
+
+
+#rothko div:nth-child(1) {
+	background-color: #E09A10; /* Again, these are all copied from the “Digital Color Meter”. */
+  height: 190px;
+  border-radius: 20px;
+}
+
+#rothko div:nth-child(2) {
+	background-color: #D45A2C; /* Again, these are all copied from the “Digital Color Meter”. */
+  height: 86px;
+  margin-top: 4px;
+  border-radius: 20px;
+}
+  

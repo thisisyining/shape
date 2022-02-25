@@ -1,0 +1,25 @@
+
+/* Just the first nested level. The ">" combinator is for immediate children. */
+#rothko section > div {
+  height: 185px;
+  width: 203px;
+  background-color: #E29A0F;
+}
+
+/* Second, and so on. */
+#rothko section > div > div {
+  height: 85px;
+  width: 103px;
+	background-color: #D45B2F;
+}
+
+
+
+#rothko div {
+	height: 100%; /* Fill the parent. This works since we have a declared height ancestor. */
+	padding-bottom: 5%; /* Different inset on each side for the distinct downward look. */
+	padding-left: 10%; /* And using a relative unit means I can share this for all the `div` levels. */
+	padding-right: 10%;
+	padding-top: 15%;
+	width: 100%;
+}

@@ -1,0 +1,41 @@
+/* Since I will have multiple, I added an ID to target my first work. */
+#albers section {
+	background-color: #f1f0ea; /* I used the “Digital Color Meter” on my Mac to get these exact values. */
+	height: 200px; /* Let’s make this smaller to reflect its actual size. */
+	width: 200px; /* Square. */
+	padding: 36px; /* Even inset all-around. */
+}
+
+#albers section,
+#albers div {
+	border-radius: 1px; /* Make the corners less sharp. */
+}
+
+/* All the nested divs. */
+#albers div {
+	height: 100%; /* Fill the parent. This works since we have a declared height ancestor. */
+	padding-bottom: 5%; /* Different inset on each side for the distinct downward look. */
+	padding-left: 10%; /* And using a relative unit means I can share this for all the `div` levels. */
+	padding-right: 10%;
+	padding-top: 15%;
+	width: 100%;
+}
+
+/* Just the first nested level. The ">" combinator is for immediate children. */
+#albers section > div {
+	background-color: #aac3df;
+}
+
+/* Second, and so on. */
+#albers section > div > div {
+	background-color: #adadab;
+}
+
+#albers section > div > div > div {
+	background-color: #c9b66e;
+}
+
+/* I probably should have used classes, this is getting hard to read. */
+#albers section > div > div > div > div {
+	background-color: #dfbb4e;
+}

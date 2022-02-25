@@ -1,0 +1,31 @@
+body {
+	background-color: white;
+	font-family: sans-serif;
+	padding: 100px 24px; /* More on top/bottom, less on sides. */
+}
+
+em {
+	font-style: italic; /* Restores italics, cleared by my reset. */
+}
+
+/* This seems like the right semantic element. */
+figure {
+	margin: 0 auto; /* Centered in the page. */
+	width: 600px; /* The width is on the container now so the caption is also constrained. */
+}
+
+/* Space for the lower works. */
+figure:not(:first-child) {
+	margin-top: 100px;
+}
+
+/* This is the corresponding semantic caption element. */
+figcaption {
+	margin-top: 20px;
+	color: rgba(0, 0, 0, 0.33); /* Semi-transparent black. */
+}
+
+section {
+	/* There is only a shorthand for `box-shadow` and it is annoying to read! */
+	box-shadow: 0 14px 8px 0 rgba(0, 0, 0, 0.25);
+}
