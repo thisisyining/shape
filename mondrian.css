@@ -1,0 +1,68 @@
+/* Since I will have multiple, I added an ID to target my first work. */
+#mondrian section {
+  position: relative;
+  background-color: black; /* I used the “Digital Color Meter” on my Mac to get these exact values. */
+	height: 591px; /* Let’s make this smaller to reflect its actual size. */
+	width: 591px; /* Square. */
+}
+
+#mondrian div:nth-child(1) {
+	background-color: #E9E9E7;
+  height:176px;
+  width: 126px;
+  }
+
+#mondrian div:nth-child(2) {
+  background-color: #E9E9E7;
+  height:216px;
+  width: 126px;
+  margin-top: 37px;
+    }
+
+#mondrian div:nth-child(3) {
+	background-color: #22599A;
+  height:146px;
+  width: 126px;
+  margin-top:16px;
+  position: absolute;
+}
+
+#mondrian div:nth-child(4) {
+  background-color: #CB3B2B;
+  float: right;
+  width: 75.6%;
+  height: 72.5%;
+	top: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+#mondrian div:nth-child(5) {
+  background-color: #E9E9E7;
+  float: right;
+  width: 65.3%;
+  height: 24.7%;
+	bottom: 0px;
+	left: 144px;
+	position: absolute;
+}
+
+#mondrian div:nth-child(6) {
+  background-color: #E9E9E7;
+  float: right;
+  width: 6.937%;
+  height: 9.983%;
+	bottom: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+#mondrian div:nth-child(7) {
+  background-color: #EADB7B;
+  float: right;
+  width: 6.937%;
+  height: 9.983%;
+	bottom: 87px;
+	right: 0px;
+	position: absolute;
+}
